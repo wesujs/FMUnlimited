@@ -102,10 +102,3 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 
 For support, contact me via Discord: `amgk` ([Discord Profile](https://discordapp.com/users/703112459313217556/)).
 ```
-
-### Summary of Changes:
-- Removed references to MongoDB setup on the user's end since you're providing centralized database support.
-- Removed command-line instructions for users, as they will primarily interact with an `.exe` file.
-- The `.exe` download and execution is now the primary installation method, with the option to download and run the source code available for developers.
-
-This version of the README is tailored for end users who will simply download and run the executable file, making it more user-friendly for those without technical knowledge.
