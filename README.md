@@ -58,8 +58,21 @@ To use FM-Unlimited, you need to obtain your Last.fm API credentials. Follow the
    - Once signed in, create a new API application to get your API Key and API Secret.
    - You will need to provide some basic information about your application.
 
-3. **Obtain Your Session Key**:
-   - Follow the instructions on the [Last.fm API Authentication](https://www.last.fm/api/authentication) page to get a session key. This key is needed to authenticate scrobbles.
+## Getting Your Last.fm Session Key Using the GUI
+
+FM-Unlimited includes a handy GUI tool to help you quickly generate your Last.fm session key. Follow these steps:
+
+1. **Run the Session Key Generator**:
+   - Download and run the `getSeshKey.exe` file.
+   - Enter your Last.fm API Key and API Secret in the provided fields.
+
+2. **Authorize Your Token**:
+   - Click "Get Session Key". This will generate a token and open a web browser prompting you to authorize it with Last.fm.
+   - After authorizing, return to the application.
+
+3. **Retrieve Your Session Key**:
+   - Click the "I've authorized the token" button.
+   - Your session key will be displayed in the window. Copy it and keep it safe for future use.
 
 4. **Input Your Credentials**:
    - Once you have your API Key, API Secret, and Session Key, input them into FM-Unlimited's GUI and click "Submit" to validate and save them.
